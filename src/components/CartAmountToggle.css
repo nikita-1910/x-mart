@@ -1,0 +1,16 @@
+.quantity-section{
+    display: flex;
+    font-size: large;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif; 
+}
+
+.quantity-button{
+    color: #001C30;
+    background-color: #419197;
+    border: none;
+    padding: .5em;
+}
+
+.quantity{
+    padding: .5em;
+}

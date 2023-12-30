@@ -1,0 +1,19 @@
+.error-container{
+    padding: 2em ;
+    text-align: center;
+    background-color: #64CCC5;
+}
+
+.heading404{
+    font-size: 5em;
+}
+
+.error-heading{
+    font-size: 3em;
+    margin: 1em 0em;
+}
+
+.error-para{
+    font-size: large;
+    margin: 1em 0em;
+}

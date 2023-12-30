@@ -1,0 +1,33 @@
+
+.features-box{
+  background-color: #64CCC5;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif; 
+}
+  
+  .ab{
+    text-align: center;
+  }
+  
+  @media (max-width: 550px) {
+    .cards{
+        grid-template-columns: 1fr ;
+        margin: 0em 1em;
+    }
+  }
+  @media (max-width: 769px) {
+    .cards{
+        margin: 0em 1em;
+    }
+  }
+
+  @media (max-width: 1025px) {
+    .cards{
+        margin: 0em 1em;
+    }
+  }
+
+
+
+
+ 
+  

@@ -1,0 +1,63 @@
+.services-container{
+  background-color: #419197;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem; /* Adjusted padding for smaller screens */
+    margin: auto;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  }
+  
+  .service-div {
+    padding-top: 1.5rem;
+    color: #001C30;
+    background-color: #DAFFFB;
+    border-radius: 0.5rem;
+    margin: 1rem; /* Adjusted margin for smaller screens */
+    width: 100%; /* Full width on smaller screens */
+    align-items: center;
+    text-align: center;
+  }
+  
+  .abc {
+    margin-bottom: 1rem; /* Adjusted margin for smaller screens */
+    font-weight: 500;
+    font-size: 1rem; /* Adjusted font size for smaller screens */
+    padding: 0 0.5rem; /* Adjusted padding for smaller screens */
+  }
+  
+  .icon {
+    width: 4rem; /* Adjusted width for smaller screens */
+    height: 4rem; /* Adjusted height for smaller screens */
+    padding: 0.8rem; /* Adjusted padding for smaller screens */
+    border-radius: 50%;
+    background-color: #001C30;
+    color: #64CCC5;
+    margin: 0.5rem; /* Adjusted margin for smaller screens */
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 767px) {
+    .container {
+      flex-direction: column; /* Change to a column layout on smaller screens */
+      margin: 0em 1em; 
+      padding: 3em ;/* Adjusted padding for smaller screens */
+    }
+  
+    .service-div {
+      margin: 1em 0em;/* Adjusted margin for smaller screens */
+    }
+  
+    .abc {
+      font-size: 1.2rem; /* Adjusted font size for smaller screens */
+    }
+  
+    .icon {
+      width: 3rem; /* Adjusted width for smaller screens */
+      height: 3rem; /* Adjusted height for smaller screens */
+      padding: 0.5rem; /* Adjusted padding for smaller screens */
+    }
+  }
+  

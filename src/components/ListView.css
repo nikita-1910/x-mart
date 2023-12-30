@@ -1,0 +1,83 @@
+.ListView {
+    background-color: #DAFFFB;
+    color: #001C30;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 1px solid #001C30;
+    margin: 1em;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.product-list-image {
+    margin: 2em;
+}
+
+.product-list-description {
+    margin: 2em;
+}
+
+.pic {
+    height: 18em;
+    width: 30em;
+}
+
+.product-heading {
+    font-size: xx-large;
+    margin-top: .5em;
+}
+
+.product-price {
+    font-size: large;
+    margin: 1em 0em;
+}
+
+
+.product-description {
+    font-size: larger;
+    margin: 1em 0em;
+    text-align: justify;
+}
+
+.product-readmore {
+    color: #DAFFFB;
+    background-color: #001C30;
+    border: 1px solid #001C30;
+    margin: 1em 1em 1em 0em;
+    width: 9.5em;
+    padding: .8em;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.product-readmore:hover {
+    background-color: #DAFFFB;
+    color: #001C30;
+}
+
+@media (max-width:821px) {
+    .ListView {
+        grid-template-columns: repeat(1, 1fr)
+    }
+
+    .product-list-description {
+        margin: 0em 2em;
+    }
+
+    .product-heading {
+        margin-top: 0em;
+    }
+}
+
+@media (max-width:550px) {
+    .ListView {
+        margin: .5em;
+    }
+
+    .product-list-description {
+        margin: .5em;
+    }
+
+    .product-list-image {
+        margin: .5em;
+    }
+}

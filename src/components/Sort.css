@@ -1,0 +1,52 @@
+.sort-section{
+  color: #0A2647;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+.view-buttons {
+    display: flex;
+}
+
+.view-btn {
+  color: #0A2647;
+    margin: .5rem;
+    padding: 0.5rem ;
+    /* width: 2rem; */
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #DAFFFB;
+
+}
+
+.view-icon {
+    font-size: 1rem;
+}
+
+.view-active {
+    background-color: #0A2647;
+    color: #DAFFFB;
+  }
+
+  .sort-dropdown{
+    margin-top: .5em;
+    padding: .5em;
+    width: 10em;
+    background-color: #DAFFFB;
+  }
+
+  .product-quantity{
+    font-weight: bolder;
+    font-size: large;
+    margin-top: .5em;
+  }
+
+  @media (max-width:281px) {
+    .sort-section{
+      flex-direction: column;
+      margin-left: 2em;
+    }
+  }

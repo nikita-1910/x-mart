@@ -1,0 +1,25 @@
+
+
+.add-to-cart-btn {
+  color: #DAFFFB;
+  background-color: #001C30;
+  border: 1px solid #001C30;
+  padding: .8em;
+  font-size: larger;
+  width: 9.5em;
+  margin: 1em 0em;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  cursor: pointer;
+}
+
+.add-to-cart-btn:hover{
+  background-color: #DAFFFB;
+  color: #001C30;
+}
+
+.color-font {
+  font-size: large;
+  margin: 1em 0em;
+  font-weight: bold;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}

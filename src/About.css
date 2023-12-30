@@ -1,0 +1,95 @@
+.outer-box{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* height: 100vh; */
+    /* padding-top: 10vh;
+    padding-bottom: 10vh; */
+    /* background-color: #B8E8FC; */
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.model {
+    background-color: #419197;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8em 10rem; 
+}
+
+.cardd {
+  flex: 1;
+  margin-top: .2em;
+  /* Adjust the margin between image and description as needed */
+}
+
+.imagee {
+  width: 100%;
+  height: 20em;
+}
+
+.boldd{
+    font-weight: bold;
+}
+
+
+.description {
+  flex: 1;
+  color: #DAFFFB;
+  background-color: #176B87;
+    padding: 3.6em;
+    width: 100%;
+    text-align: justify;
+}
+
+.about-us-heading {
+    font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.about-us-description {
+  font-size: large;
+}
+
+@media (max-width:281px) {
+    .model{
+        margin: 0em 1em;
+        padding: 0em;
+    }
+}
+
+@media (max-width: 541px) {
+    .imagee{
+        height: 20em;
+        width: 50em;
+    }
+
+    .description{
+        padding: 1em;
+    }
+
+    .model{
+        /* margin: 0em; */
+        padding: 2em;
+    }
+}
+
+@media (max-width: 1025px) {
+    .model{
+        flex-direction: column;
+        margin: 0em 0em;
+    }
+
+    .description{
+        padding: 1.5em;
+    }
+
+    .imagee{
+        height: 25em;
+        width: 60em;
+    }
+}
+
+
+

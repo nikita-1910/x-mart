@@ -1,0 +1,151 @@
+.search-input {
+    color: #001C30;
+    padding: .5em;
+    width: 12.5em;
+    margin: 1em;
+    margin-top: .5em;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    background-color: #DAFFFB;
+    border: 1px solid #001C30;
+}
+
+.filter-heading {
+    font-size: 1.5em;
+    margin: 1.5em .5em .5em .7em;
+    font-weight: 500;
+    color: #001C30;
+}
+
+.category-data {
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+#category-button {
+    font-size: larger;
+    border: none;
+    background-color: #DAFFFB;
+    text-transform: capitalize;
+    cursor: pointer;
+    padding: .5em;
+    width: 10.5em;
+    text-align: left;
+}
+
+.category-active {
+    border-bottom: 1px solid #000;
+    color: blue;
+}
+
+#company {
+    text-transform: capitalize;
+}
+
+.filter-color-style {
+    width: 12em;
+    margin-left: 1em;
+    display: flex;
+    justify-content: flex-start;
+    padding: .5em;
+    background-color: #DAFFFB;
+}
+
+.color-all--style {
+    color: #001C30;
+    background-color: transparent;
+    text-transform: capitalize;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+.btnStyle-f {
+    width: 1.3rem;
+    height: 1.3rem;
+    background-color: #000;
+    border-radius: 50%;
+    margin-left: .5em;
+    border: none;
+    outline: none;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.active {
+    opacity: 1;
+}
+
+
+.filter-price {
+    margin: 1em;
+    font-size: 1.2em;
+    color: #001C30;
+}
+
+.filter-range {
+    margin-left: 1em;
+    background: #419197;
+}
+
+input[type=range] {
+    appearance: none;
+    width: 10rem;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 10px;
+    cursor: pointer;
+    background: #DAFFFB;
+    border-radius: 0.4rem;
+    border: 1px solid #001C30;
+}
+
+input[type=range]::-webkit-slider-thumb {
+   
+    height: 1.2rem;
+    width: 15px;
+    border-radius: 5rem;
+    background: #001C30;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -5px;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #DAFFFB;
+}
+
+.btn {
+    color: #DAFFFB;
+    background-color: #001C30;
+    border: 1px solid #001C30;
+    margin: 1em;
+    width: 9.5em;
+    padding: .8em;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #DAFFFB;
+    color: #001C30;
+}
+
+.checkStyle {
+    margin-left: .2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    color: #fff;
+}
+
+@media (max-width:767px) {}
